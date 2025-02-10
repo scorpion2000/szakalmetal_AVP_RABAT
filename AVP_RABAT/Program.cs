@@ -24,7 +24,7 @@ namespace AVP_RABAT
         static List<AvpData> porscheData = new List<AvpData>();
 
         static string rabatFile = @"\\Fs\arlista\Árlista 2025\GYÁRI ÁRLISTÁK 2025\AVP_RABAT_NEW.xlsx";
-        static string vwFile = @"C:\Users\LP-KATALOGUS1\source\repos\AVP_RABAT\AVP_RABAT\bin\Debug\kezi\vwFull.csv";
+        static string vwFile = AppDomain.CurrentDomain.BaseDirectory + @"kezi\vwFull.csv";
         static string skodaFile = @"\\Fs\arlista\kezi_arlista\skoda_avp.csv";
         static string seatFile = @"\\Fs\arlista\kezi_arlista\seat_avp.csv";
         static string porscheFile = @"\\Fs\arlista\kezi_arlista\porsche_avp.csv";
